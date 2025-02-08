@@ -37,3 +37,11 @@
       service:
         name: apache2
         state: restarted
+
+    - name: Add a user
+      user:
+        name: newuser
+        state: present
+        groups: sudo
+        password: password123
+        shell: /bin/bash
