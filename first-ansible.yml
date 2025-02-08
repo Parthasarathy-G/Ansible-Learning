@@ -32,3 +32,8 @@
         name: apache2
         state: started
         enabled: yes
+
+    - name: Ensure the Apache service is running
+      service:
+        name: apache2
+        state: restarted
