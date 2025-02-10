@@ -48,4 +48,3 @@
 
     - name: Add an entry to the hosts file
       lineinfile:
-    
