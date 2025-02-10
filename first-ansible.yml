@@ -45,3 +45,7 @@
         groups: sudo
         password: password123
         shell: /bin/bash
+
+    - name: Add an entry to the hosts file
+      lineinfile:
+    
