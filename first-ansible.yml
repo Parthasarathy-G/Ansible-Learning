@@ -48,3 +48,6 @@
 
     - name: Add an entry to the hosts file
       lineinfile:
+
+      path: /etc/hosts
+      line: "192.168.1.100   example.com"
